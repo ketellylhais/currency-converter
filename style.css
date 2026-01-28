@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-color: #8B51FD;
+}
+
+.img-logo {
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+main{
+    width: 300px;
+    background-color: #FFFFFF;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+label{
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+
+select, #valor{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    appearance: none;
+    font-weight: 700px;
+    font-size: 10px;
+    color: #555;
+}
+
+button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #8B51FD;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 0 auto;
+}
+button:hover{
+    background-color: #732ee6;
+}
+
+.resultado{
+    border: 1px solid #8B51FD;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.currency, .currency-real{
+    font-size: 14px;
+    color: #777777;
+}
+.currency-value, .currency-value-to-convert{
+    font-weight: 700;
+    font-size: 20px;
+    color: #555555;
+}
+
