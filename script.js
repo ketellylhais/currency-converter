@@ -38,7 +38,7 @@ async function convertCurrency(showAlert = true) {
         return
     }
 
-    const rate = await getCurrencyRate(targetCurrencyCode.toUpperCase());
+    const rate = await getCurrencyRate(targetCurrencyCode)
 
     if (rate === null) {
         return
@@ -55,7 +55,7 @@ async function convertCurrency(showAlert = true) {
         targetCurrencyCode === 'EUR' ? "de-DE" : "en-US",
         {
             style: "currency",
-            currency: targetCurrencyCode.toUpperCase()
+            currency: targetCurrencyCode
         }
     ).format(convertedValue)
 }
