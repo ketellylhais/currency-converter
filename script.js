@@ -66,6 +66,7 @@ function chanceCurrency() {
         document.querySelector('.logo-eua').src = 'assets/estados-unidos (1) 1.png'
     } else if (selectCurrency.value === 'EUR') {
         textCurrency.textContent = "Euro"
+        currencyValueConverted.textContent = '0, 00 €'
         document.querySelector('.logo-eua').src = 'assets/euro.png'
     }
 
