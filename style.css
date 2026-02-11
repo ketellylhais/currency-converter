@@ -7,23 +7,40 @@
     outline: none;
 }
 
+.container{
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
 body{
     background-color: #8B51FD;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-logo {
-    width: 100px;
-    display: block;
-    margin: 10px auto;
+    height: 170px;
 }
 
 main{
-    width: 300px;
-    background-color: #FFFFFF;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+.section-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -47,7 +64,10 @@ select, #valor{
 }
 
 button{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     width: 100px;
     height: 30px;
     border: none;
@@ -55,8 +75,7 @@ button{
     background-color: #8B51FD;
     color: white;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
 }
 button:hover{
     background-color: #732ee6;
